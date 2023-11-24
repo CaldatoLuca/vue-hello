@@ -5,7 +5,8 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello Vue!",
+      message: "Prova titolo",
+      h1Style: "fw-bold text-center",
     };
   },
 }).mount("#app");
