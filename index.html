@@ -19,7 +19,12 @@
   </head>
   <body>
     <div id="app">
-      <h1 class="text-primary" :class="h1Style">{{ message }}</h1>
+      <div class="container" :class="containerStyle">
+        <h1 class="text-primary" :class="h1Style">{{ message }}</h1>
+        <div class="-lc-img-container">
+          <img class="img-fluid" :src="imgSrc" :alt="imgAlt" />
+        </div>
+      </div>
     </div>
     <!-- !bootsrap -->
     <script
